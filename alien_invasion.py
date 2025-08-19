@@ -4,6 +4,7 @@ import pygame
 
 from settings import Settings
 
+
 class AlienInvasion:
     """Overall class to manage game assets and behavior."""
 
@@ -29,7 +30,7 @@ class AlienInvasion:
 
             # Make the most recently drawn screen visible.
             pygame.display.flip()
-            self.clock.tick(60) # frame rate of 60 fps.
+            self.clock.tick(60)  # frame rate of 60 fps.
 
 
 if __name__ == "__main__":
